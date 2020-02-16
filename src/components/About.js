@@ -1,15 +1,14 @@
-import React, {useRef, useState} from 'react';
+import React, {useRef} from 'react';
 import NavBar from './NavBar';
 
 const About = () => {
     const imageRef = useRef(null);
-    const [st, setSt] = useState(false) 
     const mouseOver = () => {
-        setSt(true)
+        imageRef.current.src = '/jc.jpg'
     }
 
     const mouseOut = () => {
-        setSt(false)
+        imageRef.current.src = '/josh_gray.jpg'
     }
 
     return (
@@ -40,8 +39,7 @@ const About = () => {
                        <img onMouseOver={mouseOver}
                        onMouseOut = {mouseOut}
                        ref = {imageRef}
-                       className="image" src={ st ? '/jc.jpg' : 
-                       "/josh_gray.jpg"} alt="Josh"/> 
+                       className="image" src="/josh_gray.jpg" alt="Josh"/> 
                         
                     </div>
                     
