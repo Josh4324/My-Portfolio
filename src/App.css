@@ -1237,6 +1237,10 @@ a.box:hover {
   .hf {
     font-size:18px;
   }
+
+  .social-contact {
+    margin-bottom: 50px;
+  }
 }
 
 @media (max-width:320px) {
