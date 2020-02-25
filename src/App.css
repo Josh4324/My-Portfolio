@@ -767,6 +767,9 @@ pre tt:after {
 
 .ch {
   font-family: 'Uncial Antiqua' !important;
+  text-align: center;
+  margin-top:30px;
+  color:#C3073F
 }
 
 .c1 {
@@ -904,7 +907,7 @@ a.box:hover {
   background-color:#C3073F ;
 }
 
-.none {
+.lone {
   text-decoration: none;
   color: white;
 }
@@ -1240,6 +1243,14 @@ a.box:hover {
 
   .social-contact {
     margin-bottom: 50px;
+  }
+
+  .cpage {
+    margin-top:50px;
+  }
+
+  .social {
+    margin-bottom: 40px;
   }
 }
 

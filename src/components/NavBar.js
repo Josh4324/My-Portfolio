@@ -8,7 +8,7 @@ const NavBar = () => {
     return (
         <div>
             <div className="box1">
-            <h2 className="logo off"><a className="none logocolor"  href="/">Jo</a></h2>
+            <h2 className="logo off"><a className="lone logocolor"  href="/">Jo</a></h2>
             <div className="sidebar">
                 <div  className="nav">
                     <NavLink exact  className="nav-item" to="/"><FontAwesomeIcon  className="fas" icon={faHouseDamage} /></NavLink>
