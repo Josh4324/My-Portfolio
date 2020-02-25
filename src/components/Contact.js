@@ -110,7 +110,7 @@ const Contact = () => {
                         </div>
                     </div>
     
-                    <div className="map">
+                    <div className="map none">
                         <div ref={mapRef} className="mapContainer"></div>
                         <div className="marker" ref={markerRef}></div>
                     </div>

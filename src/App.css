@@ -1074,6 +1074,10 @@ a.box:hover {
       bottom: 40px;
       }
 
+  .none {
+    display: none;
+  }
+
   .contact1 {
     margin-left: 20px;
     margin-right:20px;
@@ -1306,5 +1310,9 @@ a.box:hover {
 
       .c1 {
         flex-basis:100%;
+      }
+
+      .none {
+        display: none;
       }
   }
