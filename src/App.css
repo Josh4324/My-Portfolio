@@ -1246,11 +1246,15 @@ a.box:hover {
   }
 
   .cpage {
-    margin-top:50px;
+    margin-top:70px;
   }
 
   .social {
     margin-bottom: 40px;
+  }
+
+  .hf {
+    font-size: 19px;
   }
 }
 
