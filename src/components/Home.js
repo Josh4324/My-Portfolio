@@ -19,7 +19,7 @@ const Home = () => {
                 <div className="contact">
                     <NavLink className="box" to="/contact">Contact me</NavLink>
                     <NavLink className="box" to="/work">View my Work</NavLink>
-                    <a className="box" target="_blank" href="https://drive.google.com/open?id=1FNMBb0Gtg5uhgQ33VpwjImlZhxxrmr8W">Resume</a>
+                    <a className="box" target="_blank" rel="noopener noreferrer" href="https://drive.google.com/open?id=1FNMBb0Gtg5uhgQ33VpwjImlZhxxrmr8W">Resume</a>
                 </div>
                 
                 <div className="social">
