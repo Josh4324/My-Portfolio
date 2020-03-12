@@ -713,6 +713,9 @@ pre tt:after {
 }
 
 
+
+/*Home*/
+
 .cpage {
   color: #C3073F;
   text-align: center;
@@ -722,9 +725,79 @@ pre tt:after {
   margin-top: 13%;
 }
 
+.hello {
+  font-size: 20px;
+  font-family: 'Courgette';
+}
+
 .hf {
   font-family: 'Uncial Antiqua' !important;
 }
+
+.contact {
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.box {
+  border: 2px solid #C3073F;
+  padding: 5px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+a.box:hover {
+  background-color: #C3073F;
+}
+
+.social {
+  margin-top: 20px;
+}
+
+.fab {
+  color: #950740;
+  font-size: 3em;
+  padding: 10px;
+
+}
+
+
+
+/*About*/
+
+.abouth {
+  text-align: center;
+  font-family: 'Uncial Antiqua' !important;
+  color: #C3073F;
+  margin-top: 50px;
+}
+
+
+
+
+
+
+
+.np {
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: white;
+  width: 150px;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.np a {
+  text-decoration: none;
+}
+
+
 
 .nav-item {
   display: block;
@@ -757,12 +830,10 @@ pre tt:after {
   font-family: 'Uncial Antiqua' !important;
 }
 
+
 .card {
   width: 400px;
-  font-family: 'Uncial Antiqua' !important;
-  padding: 10px;
-  border-radius: 10px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .card-img {
@@ -981,29 +1052,14 @@ input {
   color: white !important;
 }
 
-.box {
-  border: 2px solid #C3073F;
-  padding: 5px;
-  margin-right: 10px;
-  text-decoration: none;
-  color: white;
-  border-radius: 10px;
-  padding: 10px;
-}
 
-a.box:hover {
-  background-color: #C3073F;
-}
 
 .lone {
   text-decoration: none;
   color: white;
 }
 
-.contact {
-  margin-bottom: 10px;
-  text-decoration: none;
-}
+
 
 .fas {
   text-align: center;
@@ -1015,12 +1071,7 @@ a.box:hover {
   color: black !important;
 }
 
-.fab {
-  color: #950740;
-  font-size: 3em;
-  padding: 10px;
 
-}
 
 .fab1 {
   color: #950740;
@@ -1029,9 +1080,7 @@ a.box:hover {
   padding-right: 10px;
 }
 
-.social {
-  margin-top: 20px;
-}
+
 
 .about {
   margin-bottom: 50px;
@@ -1041,12 +1090,7 @@ a.box:hover {
   width: 100%;
 }
 
-.abouth {
-  text-align: center;
-  font-family: 'Uncial Antiqua' !important;
-  color: #C3073F;
-  margin-top: 50px;
-}
+
 
 .ab1 {
   display: inline-block;
@@ -1068,10 +1112,7 @@ a.box:hover {
   height: 100%;
 }
 
-.hello {
-  font-size: 20px;
-  font-family: 'Courgette';
-}
+
 
 .image {
   width: 300px;
@@ -1084,15 +1125,13 @@ a.box:hover {
   display: none;
 }
 
-.grid-container {
-  display: grid;
-  grid-template: auto / repeat(3, minmax(300px, 1fr));
-  column-gap: 10px;
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-.grid-item {
-  justify-self: center;
-}
+
 
 @media (max-width:1112px) {
   .image {
@@ -1101,14 +1140,11 @@ a.box:hover {
 }
 
 @media (max-width:1049px) and (min-width:577px) {
-  .grid-container {
-    display: grid;
-    grid-template: auto / 1fr;
-    column-gap: 10px;
-  }
+  .grid-container {}
 
   .card {
     width: 400px;
+
   }
 
 }
@@ -1160,9 +1196,23 @@ a.box:hover {
 }
 
 
+
+
+
 /* Mobile */
 
+/*home*/
+
 @media (max-width:576px) {
+
+  .cpage {
+    margin-top: 120px;
+    width: 80%;
+  }
+
+  .hf {
+    font-size: 20px;
+  }
 
   .mapContainer {
     position: absolute !important;
@@ -1176,11 +1226,7 @@ a.box:hover {
     display: none;
   }
 
-  .grid-container {
-    display: grid;
-    grid-template: 400px / 1fr;
-    column-gap: 10px;
-  }
+
 
   .contact1 {
     margin-left: 20px;
@@ -1214,12 +1260,6 @@ a.box:hover {
     width: 100%;
   }
 
-
-
-  .grid-item {
-    justify-self: center;
-    align-self: center;
-  }
 
   .about {
     flex-direction: column;
@@ -1267,14 +1307,7 @@ a.box:hover {
     width: 25px !important;
   }
 
-  .cpage {
-    margin-top: 120px;
-    width: 80%;
-  }
 
-  .hf {
-    font-size: 20px;
-  }
 
   .ab1p {
     margin-top: 0px;
@@ -1328,16 +1361,23 @@ a.box:hover {
 
 }
 
-@media (max-width:382px) {
+@media (max-width:390px) {
+
+  .hf {
+    font-size: 18px;
+  }
+
   .box {
     width: 70%;
     margin-left: 15%;
     margin-right: 15%;
   }
 
-  .hf {
-    font-size: 18px;
+  .container {
+    margin-bottom: 40px;
   }
+
+
 
   .social-contact {
     margin-bottom: 50px;
@@ -1351,8 +1391,9 @@ a.box:hover {
     margin-bottom: 40px;
   }
 
-  .hf {
-    font-size: 19px;
+
+  img {
+    width: 98%;
   }
 }
 
