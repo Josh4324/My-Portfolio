@@ -8,7 +8,7 @@ const Work = () => {
         <h1 className="proh"> Projects </h1>
 
         <div className="container">
-          <div className="card item">
+          <div className="card">
             <img src="solar.png" alt="" className="card-img" />
             <p>Solar Calculator</p>
             <p>
