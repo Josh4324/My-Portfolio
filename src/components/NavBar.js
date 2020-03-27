@@ -1,13 +1,13 @@
+import {
+  faDatabase,
+  faEnvelope,
+  faHouseDamage,
+  faLaptopCode,
+  faUserTie
+} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faUserTie,
-  faLaptopCode,
-  faEnvelope,
-  faDatabase,
-  faHouseDamage
-} from "@fortawesome/free-solid-svg-icons";
 
 const NavBar = () => {
   return (

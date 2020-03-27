@@ -588,13 +588,13 @@ ul li {
   padding-left: 0;
 }
 
-li>ol {
+li > ol {
   margin-left: 1.45rem;
   margin-bottom: calc(1.45rem / 2);
   margin-top: calc(1.45rem / 2);
 }
 
-li>ul {
+li > ul {
   margin-left: 1.45rem;
   margin-bottom: calc(1.45rem / 2);
   margin-top: calc(1.45rem / 2);
@@ -612,7 +612,7 @@ p *:last-child {
   margin-bottom: 0;
 }
 
-li>p {
+li > p {
   margin-bottom: calc(1.45rem / 2);
 }
 
@@ -721,7 +721,7 @@ pre tt:after {
 .logo {
   margin-left: 10px;
   margin-top: 10px;
-  font-family: 'Pacifico' !important;
+  font-family: "Pacifico" !important;
 }
 
 .logocolor {
@@ -739,7 +739,7 @@ pre tt:after {
   box-shadow: 5px 5px 20px -10px rgb(145, 97, 97);
   border-radius: 5px;
   position: fixed;
-  background-color: #C3073F
+  background-color: #c3073f;
 }
 
 .nav-item {
@@ -760,14 +760,12 @@ pre tt:after {
   color: black !important;
 }
 
-
-
 /*Home*/
 
 .cpage {
-  color: #C3073F;
+  color: #c3073f;
   text-align: center;
-  font-family: 'Uncial Antiqua' !important;
+  font-family: "Uncial Antiqua" !important;
   margin: auto;
   width: 700px;
   margin-top: 13%;
@@ -775,11 +773,11 @@ pre tt:after {
 
 .hello {
   font-size: 20px;
-  font-family: 'Courgette';
+  font-family: "Courgette";
 }
 
 .hf {
-  font-family: 'Uncial Antiqua' !important;
+  font-family: "Uncial Antiqua" !important;
 }
 
 .contact {
@@ -788,7 +786,7 @@ pre tt:after {
 }
 
 .box {
-  border: 2px solid #C3073F;
+  border: 2px solid #c3073f;
   padding: 5px;
   margin-right: 10px;
   text-decoration: none;
@@ -798,7 +796,7 @@ pre tt:after {
 }
 
 a.box:hover {
-  background-color: #C3073F;
+  background-color: #c3073f;
 }
 
 .social {
@@ -809,17 +807,14 @@ a.box:hover {
   color: #950740;
   font-size: 3em;
   padding: 10px;
-
 }
-
-
 
 /*About*/
 
 .abouth {
   text-align: center;
-  font-family: 'Uncial Antiqua' !important;
-  color: #C3073F;
+  font-family: "Uncial Antiqua" !important;
+  color: #c3073f;
   margin-top: 50px;
 }
 
@@ -829,7 +824,7 @@ a.box:hover {
   line-height: 2em;
   word-wrap: wrap !important;
   font-size: 18px;
-  font-family: 'Courgette';
+  font-family: "Courgette";
 }
 
 .ab2 {
@@ -856,7 +851,6 @@ a.box:hover {
   display: none;
 }
 
-
 /*Skills*/
 
 .skill {
@@ -868,8 +862,8 @@ a.box:hover {
 
 .skillh {
   text-align: center;
-  color: #C3073F;
-  font-family: 'Uncial Antiqua' !important;
+  color: #c3073f;
+  font-family: "Uncial Antiqua" !important;
 }
 
 .skcontainer {
@@ -878,15 +872,16 @@ a.box:hover {
 }
 
 .sk {
-  color: #C3073F;
+  color: #c3073f;
   list-style-type: square;
   padding-left: 30px;
-  font-family: 'Courgette';
+  font-family: "Courgette";
   font-size: 20px;
+  list-style: none;
 }
 
 .skh {
-  font-family: 'Uncial Antiqua' !important;
+  font-family: "Uncial Antiqua" !important;
 }
 
 /* Work */
@@ -896,12 +891,12 @@ a.box:hover {
   padding-left: 80px;
   text-align: center;
   margin-top: 30px;
-
+  margin-bottom: 40px;
 }
 
 .proh {
-  color: #C3073F;
-  font-family: 'Uncial Antiqua' !important;
+  color: #c3073f;
+  font-family: "Uncial Antiqua" !important;
 }
 
 .container {
@@ -930,16 +925,14 @@ a.box:hover {
   margin-right: auto;
   cursor: pointer;
   z-index: 10;
+  margin-top: 5px;
 }
 
 .np a {
   text-decoration: none;
 }
 
-
 /* Contact */
-
-
 
 .contact1 {
   margin-left: 80px;
@@ -949,10 +942,10 @@ a.box:hover {
 }
 
 .ch {
-  font-family: 'Uncial Antiqua' !important;
+  font-family: "Uncial Antiqua" !important;
   text-align: center;
   margin-top: 30px;
-  color: #C3073F
+  color: #c3073f;
 }
 
 .c1 {
@@ -974,8 +967,8 @@ a.box:hover {
 
 .but {
   border-radius: 5px;
-  background-color: #C3073F;
-  border-color: #C3073F;
+  background-color: #c3073f;
+  border-color: #c3073f;
   color: white;
   text-align: center;
   padding-left: 10px;
@@ -990,14 +983,14 @@ a.box:hover {
 
 .submit {
   padding: 10px;
-  background-color: #C3073F;
+  background-color: #c3073f;
   color: white;
   width: 90%;
 }
 
 .error {
   padding: 10px;
-  background-color: #C3073F;
+  background-color: #c3073f;
   color: white;
   width: 90%;
 }
@@ -1011,7 +1004,7 @@ a.box:hover {
 }
 
 .marker {
-  background-image: url('/mapbox-icon.png');
+  background-image: url("/mapbox-icon.png");
   background-size: cover;
   width: 50px;
   height: 50px;
@@ -1021,12 +1014,12 @@ a.box:hover {
 
 .pop {
   text-align: center;
-  font-family: 'Courgette';
+  font-family: "Courgette";
 }
 
 #message {
   padding-left: 10px;
-  font-family: 'Courgette';
+  font-family: "Courgette";
   border-radius: 5px;
 }
 
@@ -1037,19 +1030,15 @@ label {
 input {
   height: 40px;
   padding-left: 10px;
-  font-family: 'Courgette';
+  font-family: "Courgette";
   border-radius: 5px;
 }
-
-
-
-
 
 /* Mobile */
 
 /*home*/
 
-@media (max-width:1250px) {
+@media (max-width: 1250px) {
   .mapContainer {
     position: absolute !important;
     top: 0;
@@ -1059,7 +1048,7 @@ input {
   }
 }
 
-@media (max-width:1100px) {
+@media (max-width: 1100px) {
   .mapContainer {
     position: absolute !important;
     top: 70%;
@@ -1077,9 +1066,7 @@ input {
   }
 }
 
-@media (max-width:938px) {
-
-
+@media (max-width: 938px) {
   /* About */
 
   .about {
@@ -1096,7 +1083,6 @@ input {
     width: 100%;
     padding-left: 10px;
     padding-right: 10px;
-
   }
 
   .ab2 {
@@ -1119,21 +1105,17 @@ input {
   }
 
   .skh {
-    text-align: center
+    text-align: center;
   }
-
 }
 
-
-
-@media (max-width:1112px) {
+@media (max-width: 1112px) {
   .image {
     margin-left: 5%;
   }
 }
 
-
-@media (min-width:577px) {
+@media (min-width: 577px) {
   .sidebar {
     top: 80px;
     margin-top: 100px;
@@ -1145,7 +1127,7 @@ input {
 
   .off {
     position: absolute;
-    top: 0
+    top: 0;
   }
 
   .nav-item {
@@ -1157,14 +1139,12 @@ input {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50%;
-
   }
 
   .ab1 {
     word-wrap: break-word;
     padding-left: 10px;
     margin-top: 60px;
-
   }
 
   .about {
@@ -1173,16 +1153,13 @@ input {
   }
 }
 
-
-
-@media (max-width:576px) {
-
+@media (max-width: 576px) {
   /* NavBar */
 
   .sidebar {
     display: block;
     width: 100%;
-    background-color: #C3073F;
+    background-color: #c3073f;
     box-shadow: 5px 5px 20px rgb(145, 97, 97);
     position: fixed;
     bottom: 0;
@@ -1190,7 +1167,7 @@ input {
 
   .off {
     position: absolute;
-    top: 0
+    top: 0;
   }
 
   .nav-item {
@@ -1202,7 +1179,6 @@ input {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50%;
-
   }
 
   .nav-item {
@@ -1220,7 +1196,6 @@ input {
     margin: 0;
     text-align: center;
   }
-
 
   .fas {
     text-align: center;
@@ -1246,7 +1221,6 @@ input {
     width: 100%;
     padding-left: 10px;
     padding-right: 10px;
-
   }
 
   .ab1p {
@@ -1341,14 +1315,11 @@ input {
   }
 
   .skh {
-    text-align: center
+    text-align: center;
   }
-
 }
 
-
-@media (max-width:390px) {
-
+@media (max-width: 390px) {
   /* Home */
 
   .hf {
@@ -1378,6 +1349,8 @@ input {
   img {
     width: 98%;
   }
+}
 
-
+.test {
+  color: white;
 }

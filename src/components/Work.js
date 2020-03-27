@@ -11,7 +11,7 @@ const Work = () => {
           <div className="card">
             <img src="solar.png" alt="" className="card-img" />
             <p>Solar Calculator</p>
-            <p>
+            <p className="details">
               A Progressive Web App calculates solar power needed to power an
               household. Built by Me and my team mates at HNGI6
             </p>
@@ -36,15 +36,16 @@ const Work = () => {
           </div>
 
           <div className="card item">
-            <img src="solar.png" alt="" className="card-img" />
-            <p>Solar Calculator</p>
-            <p>
-              A Progressive Web App calculates solar power needed to power an
-              household. Built by Me and my team mates at HNGI6
+            <img src="covid.png" alt="" className="card-img" />
+            <p>Covid 19 Awareness Quiz</p>
+            <p className="details">
+              This web app tests your awareness about COVID-19. it also directs
+              users that do not do well on the quiz to a reputable site, where
+              they can learn about COVID-19{" "}
             </p>
             <p className="np">
               <a
-                href="https://hngi.github.io/Poseidon-Solar-Calculator/"
+                href="https://covid19awarenessquiz.netlify.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -53,7 +54,7 @@ const Work = () => {
             </p>
             <p className="np">
               <a
-                href="https://github.com/hngi/Poseidon-Solar-Calculator"
+                href="https://github.com/Josh4324/Covid-19-Quizzer"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -63,15 +64,15 @@ const Work = () => {
           </div>
 
           <div className="card item">
-            <img src="solar.png" alt="" className="card-img" />
-            <p>Solar Calculator</p>
-            <p>
-              A Progressive Web App calculates solar power needed to power an
-              household. Built by Me and my team mates at HNGI6
+            <img src="rps.png" alt="" className="card-img" />
+            <p>Rock Paper Scissors</p>
+            <p className="details">
+              {" "}
+              A Progressive Web App - Rock Paper Scissors Game
             </p>
             <p className="np">
               <a
-                href="https://hngi.github.io/Poseidon-Solar-Calculator/"
+                href="https://rps1.netlify.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -80,7 +81,7 @@ const Work = () => {
             </p>
             <p className="np">
               <a
-                href="https://github.com/hngi/Poseidon-Solar-Calculator"
+                href="https://github.com/Josh4324/Rock-Paper-Scissors"
                 target="_blank"
                 rel="noopener noreferrer"
               >
