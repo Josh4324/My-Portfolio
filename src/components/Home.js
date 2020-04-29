@@ -22,14 +22,14 @@ const Home = () => {
 
         <h1 className="hf">A Front End Developer</h1>
 
-        <Typing hideCursor={true} loop={true}>
+        <Typing hideCursor={true} loop={true} speed={200}>
           <p>I develop quality applications and websites </p>
           <Typing.Reset />
         </Typing>
 
         <div className="contact">
           <NavLink className="box" to="/contact">
-            Contact me
+            Hire Me
           </NavLink>
           <NavLink className="box" to="/work">
             View my Work

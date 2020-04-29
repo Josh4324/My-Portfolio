@@ -588,13 +588,13 @@ ul li {
   padding-left: 0;
 }
 
-li>ol {
+li > ol {
   margin-left: 1.45rem;
   margin-bottom: calc(1.45rem / 2);
   margin-top: calc(1.45rem / 2);
 }
 
-li>ul {
+li > ul {
   margin-left: 1.45rem;
   margin-bottom: calc(1.45rem / 2);
   margin-top: calc(1.45rem / 2);
@@ -612,7 +612,7 @@ p *:last-child {
   margin-bottom: 0;
 }
 
-li>p {
+li > p {
   margin-bottom: calc(1.45rem / 2);
 }
 
@@ -739,7 +739,7 @@ pre tt:after {
   box-shadow: 5px 5px 20px -10px rgb(145, 97, 97);
   border-radius: 5px;
   position: fixed;
-  background-color: #1BA098;;
+  background-color: #1ba098;
 }
 
 .nav-item {
@@ -763,7 +763,7 @@ pre tt:after {
 /*Home*/
 
 .cpage {
-  color: #DEB992;
+  color: #deb992;
   text-align: center;
   font-family: "Uncial Antiqua" !important;
   margin: auto;
@@ -786,17 +786,17 @@ pre tt:after {
 }
 
 .box {
-  border: 2px solid #1BA098;
+  border: 2px solid #1ba098;
   padding: 5px;
   margin-right: 10px;
   text-decoration: none;
-  color: #DEB992;
+  color: #deb992;
   border-radius: 10px;
   padding: 10px;
 }
 
 a.box:hover {
-  background-color: #1BA098;
+  background-color: #1ba098;
   color: black;
 }
 
@@ -805,7 +805,7 @@ a.box:hover {
 }
 
 .fab {
-  color: #1BA098;
+  color: #1ba098;
   font-size: 3em;
   padding: 10px;
 }
@@ -1160,7 +1160,6 @@ input {
   .sidebar {
     display: block;
     width: 100%;
-    background-color: #c3073f;
     box-shadow: 5px 5px 20px rgb(145, 97, 97);
     position: fixed;
     bottom: 0;
@@ -1248,7 +1247,7 @@ input {
   }
 
   .hf {
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .box {
@@ -1324,7 +1323,7 @@ input {
   /* Home */
 
   .hf {
-    font-size: 18px;
+    font-size: 1.2rem;
   }
 
   .box {
@@ -1334,11 +1333,15 @@ input {
   }
 
   .cpage {
-    margin-top: 70px;
+    margin-top: 100px;
   }
 
   .social {
     margin-bottom: 40px;
+  }
+
+  .contact{
+    margin-top:100px;
   }
 
   /* Work */
