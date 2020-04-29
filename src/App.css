@@ -1079,8 +1079,6 @@ input {
     justify-self: center;
     align-self: start;
   }
-
-  
 }
 
 @media (max-width: 1100px) {
@@ -1161,7 +1159,8 @@ input {
 
   .container {
     display: grid;
-    grid-template: 600px 600px / 1fr;
+    grid-template: 1fr/ 1fr;
+    gap:20px;
   }
 
   .card {
@@ -1169,8 +1168,6 @@ input {
     justify-self: center;
     align-self: start;
   }
-
-
 }
 
 @media (min-width: 577px) {
@@ -1346,11 +1343,11 @@ input {
   }
 
   .but {
-    width:100%;
+    width: 100%;
   }
 
   .error {
-    width:100%;
+    width: 100%;
   }
 
   .ch {
@@ -1417,7 +1414,6 @@ input {
     width: 80%;
     justify-self: center;
     align-self: start;
-    
   }
 
   img {
