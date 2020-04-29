@@ -1,20 +1,7 @@
-import React, { useRef } from "react";
+import React from "react";
 import NavBar from "./NavBar";
 
 const About = () => {
-  const imageRef1 = useRef(null);
-  const imageRef2 = useRef(null);
-
-  const mouseOver = () => {
-    console.log(imageRef1.current.classList);
-    imageRef1.current.classList.add("imgOff");
-    imageRef2.current.classList.remove("imgOff");
-  };
-  const mouseOut = () => {
-    imageRef1.current.classList.remove("imgOff");
-    imageRef2.current.classList.add("imgOff");
-  };
-
   return (
     <div>
       <h1 className="abouth"> About Me </h1>{" "}
@@ -22,7 +9,7 @@ const About = () => {
         <div className="ab1">
           <div
             style={{
-              display: "inline-block"
+              display: "inline-block",
             }}
           >
             <p>
@@ -45,25 +32,10 @@ const About = () => {
         </div>
 
         <div className="ab2">
-          <img
-            onMouseOver={mouseOver}
-            onMouseOut={mouseOut}
-            ref={imageRef1}
-            className="image"
-            src="/josh_gray.jpg"
-            alt="Josh"
-          />
-          <img
-            onMouseOver={mouseOver}
-            onMouseOut={mouseOut}
-            ref={imageRef2}
-            className="image imgOff"
-            src="/jc.jpg"
-            alt="Josh"
-          />
+          <img className="image" src="/jc.jpg" alt="Josh" />
         </div>
-      </div>{" "}
-      <NavBar> </NavBar>{" "}
+      </div>
+      <NavBar> </NavBar>
     </div>
   );
 };
