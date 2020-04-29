@@ -9,7 +9,11 @@ const Work = () => {
 
         <div className="container">
           <div className="card">
-            <img src="solar.png" alt="" className="card-img" />
+            <img
+              src="https://res.cloudinary.com/josh4324/image/upload/v1588195580/solar_ws2jmm.png"
+              alt=""
+              className="card-img"
+            />
             <p>Solar Calculator</p>
             <p className="details">
               A Progressive Web App calculates solar power needed to power an
@@ -36,7 +40,11 @@ const Work = () => {
           </div>
 
           <div className="card item">
-            <img src="covid.png" alt="" className="card-img" />
+            <img
+              src="https://res.cloudinary.com/josh4324/image/upload/v1588195580/covid_jpwa3l.png"
+              alt=""
+              className="card-img"
+            />
             <p>Covid 19 Awareness Quiz</p>
             <p className="details">
               This web app tests your awareness about COVID-19. it also directs
@@ -64,7 +72,11 @@ const Work = () => {
           </div>
 
           <div className="card item">
-            <img src="rps.png" alt="" className="card-img" />
+            <img
+              src="https://res.cloudinary.com/josh4324/image/upload/v1588195581/rps_duqd2l.png"
+              alt=""
+              className="card-img"
+            />
             <p>Rock Paper Scissors</p>
             <p className="details">
               {" "}
