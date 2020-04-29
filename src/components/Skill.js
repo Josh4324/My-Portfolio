@@ -5,100 +5,61 @@ const Skill = () => {
   return (
     <div>
       <div className="skill">
-        <h1 className="skillh">Skills</h1>
+        <h1 className="skillh skh">Skills</h1>
         <p>
           The main area of my expertise is front end development (client side of
           the web). I can buid small and medium apps with feature, animations
-          and interactive layouts. This are the technologies i have been working
+          and interactive layouts. These are the technologies i have been working
           with recently:
         </p>
-        <div className="skcontainer">
-          <div>
-            <h3 className="skh">Front End</h3>
-            <ul className="sk">
-              <li>HTML5</li>
-              <li>CSS3</li>
-              <li>SCSS</li>
-              <li>Tailwind CSS</li>
-              <li>Bootstrap</li>
-            </ul>
+        <div className="skflex">
+          <div className="skillb">
+            <img src="img/icons8-html-5.svg" className="icn" alt="html" />
+            <p className="text-center">HTML5</p>
           </div>
-
-          <div>
-            <h3 className="skh">Programming Language</h3>
-
-            <ul className="sk">
-              <li>Javascript(ES6)</li>
-              <li>Javacript(Node)</li>
-              <li>Python</li>
-            </ul>
+          <div className="skillb">
+            <img src="img/icons8-css3.svg" className="icn" alt="" />
+            <p className="text-center">CSS3</p>
           </div>
-
-          <div>
-            <h3 className="skh">Framework and Libraries</h3>
-
-            <ul className="sk">
-              <li>React Js</li>
-              <li>Angular</li>
-              <li>Gatsby</li>
-              <li>Express</li>
-              <li>Django</li>
-              <li>Flask</li>
-            </ul>
+          <div className="skillb">
+            <img src="img/icons8-nodejs.svg"  className="icn" alt="" />
+            <p className="text-center">Node JS</p>
           </div>
-
-          <div>
-            <h3 className="skh">Back End</h3>
-            <ul className="sk">
-              <li>Node</li>
-              <li>Express</li>
-              <li>Firebase</li>
-            </ul>
+          <div className="skillb">
+            <img src="img/icons8-git.svg"  className="icn" alt="" />
+            <p className="text-center">GIT</p>
           </div>
-
-          <div>
-            <h3 className="skh">Database</h3>
-            <ul className="sk">
-              <li>Mysql</li>
-              <li>PostgreSQl</li>
-              <li>MongoDB</li>
-              <li>Firebase</li>
-            </ul>
+          <div className="skillb">
+            <img src="img/icons8-python.svg"  className="icn" alt="" />
+            <p className="text-center">PYTHON</p>
           </div>
-
-          <div>
-            <h3 className="skh">Desktop Application</h3>
-            <ul className="sk">
-              <li>Electron</li>
-              <li>Python</li>
-            </ul>
+          <div className="skillb">
+            <img src="img/icons8-firebase.svg"  className="icn" alt="" />
+            <p className="text-center">FIREBASE</p>
           </div>
-
-          <div>
-            <h3 className="skh">Tools</h3>
-            <ul className="sk">
-              <li>Git</li>
-              <li>Npm</li>
-              <li>Heroku</li>
-              <li>Netlify</li>
-              <li>Basic Linux</li>
-            </ul>
+          <div className="skillb">
+            <img src="img/icons8-javascript.svg"  className="icn" alt="" />
+            <p className="text-center">JAVASCRIPT</p>
           </div>
-
-          <div>
-            <h3 className="skh">Cloud</h3>
-            <ul className="sk">
-              <li>Amazon EC2</li>
-              <li>Aazon S3</li>
-              <li>Amazon Serverless</li>
-            </ul>
+          <div className="skillb">
+            <img src="img/icons8-mongodb.svg"  className="icn" alt="" />
+            <p className="text-center">MONGODB</p>
           </div>
-
-          <div>
-            <h3 className="skh">Design</h3>
-            <ul className="sk">
-              <li>Figma</li>
-            </ul>
+          <div className="skillb">
+            <img src="img/icons8-postgresql.svg"  className="icn" alt="" />
+            <p className="text-center">POSTGRESQL</p>
+          </div>
+          <div className="skillb">
+            <img src="img/icons8-redux.svg"  className="icn" alt="" />
+            <p className="text-center">REDUX</p>
+          </div>
+          <div className="skillb">
+            <img src="img/icons8-mysql-logo.svg"  className="icn" alt="" />
+            <p className="text-center">MYSQL</p>
+          </div>
+          <div className="skillb">
+            <img src="img/icons8-react.svg"  className="icn" alt="" />
+            <p className="text-center">REACT</p>
           </div>
         </div>
       </div>

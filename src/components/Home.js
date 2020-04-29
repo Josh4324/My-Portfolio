@@ -46,16 +46,16 @@ const Home = () => {
 
         <div className="social">
           <a href="https://www.facebook.com/adesanyajoshua">
-            <FontAwesomeIcon className="fab" icon={faFacebookSquare} />
+            <FontAwesomeIcon className="fab sc" icon={faFacebookSquare} />
           </a>
           <a href="https://twitter.com/josh_my_man">
-            <FontAwesomeIcon className="fab" icon={faTwitterSquare} />
+            <FontAwesomeIcon className="fab sc" icon={faTwitterSquare} />
           </a>
           <a href="https://www.linkedin.com/in/joshuaadesanya/">
-            <FontAwesomeIcon className="fab" icon={faLinkedinIn} />
+            <FontAwesomeIcon className="fab sc" icon={faLinkedinIn} />
           </a>
           <a href="https://github.com/Josh4324">
-            <FontAwesomeIcon className="fab" icon={faGithubSquare} />
+            <FontAwesomeIcon className="fab sc" icon={faGithubSquare} />
           </a>
         </div>
       </div>
