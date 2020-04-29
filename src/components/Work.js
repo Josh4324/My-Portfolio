@@ -41,6 +41,65 @@ const Work = () => {
 
           <div className="card item">
             <img
+              src="https://res.cloudinary.com/josh4324/image/upload/v1588197019/wiw_majstp.png"
+              alt=""
+              className="card-img"
+            />
+            <p>Where in the World</p>
+            <p className="details">
+              {" "}
+              An App that gives you details about any country in the world
+            </p>
+            <p className="np">
+              <a
+                href="https://whereintheworld1.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Visit Webiste
+              </a>
+            </p>
+            <p className="np">
+              <a
+                href="https://github.com/Josh4324/Rest-Country-With-Dark-Theme"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github Code
+              </a>
+            </p>
+          </div>
+
+          <div className="card item">
+            <img
+              src="https://res.cloudinary.com/josh4324/image/upload/v1588197661/easy_v0h1xt.png"
+              alt=""
+              className="card-img"
+            />
+            <p>Easy Bank Landing Page</p>
+            <p className="details"> A Landing Page</p>
+            <p className="np">
+              <a
+                href="https://easybanklanding.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Visit Webiste
+              </a>
+            </p>
+            <p className="np">
+              <a
+                href="https://github.com/Josh4324/easybank-landingpage"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github Code
+              </a>
+            </p>
+          </div>
+
+          <div className="card item">
+            <img
               src="https://res.cloudinary.com/josh4324/image/upload/v1588195580/covid_jpwa3l.png"
               alt=""
               className="card-img"
