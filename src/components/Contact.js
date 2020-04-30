@@ -1,5 +1,6 @@
-import React, { useRef, useState, useEffect } from "react";
 import mapboxgl from "mapbox-gl";
+import React, { useEffect, useRef, useState } from "react";
+import { toast } from "react-toastify";
 import NavBar from "./NavBar";
 
 const Contact = () => {
@@ -9,27 +10,25 @@ const Contact = () => {
   mapboxgl.accessToken =
     "pk.eyJ1Ijoiam9zaDQzMjQiLCJhIjoiY2puZHgyZHJuMGJteDN3bzRiNnE2dXNqcSJ9.jgYBsnUesMUwUsPsb3dG6Q";
 
-  const [status, setStatus] = useState("");
-
   useEffect(() => {
     const marker = {
       type: "Feature",
       geometry: {
         type: "Point",
-        coordinates: [3.4544673, 6.6052842]
+        coordinates: [3.4544673, 6.6052842],
       },
       properties: {
         name: "Joshua Adesanya",
         title: "Front End Developer",
-        description: "Lagos, Nigeria"
-      }
+        description: "Lagos, Nigeria",
+      },
     };
 
     const map = new mapboxgl.Map({
       container: mapRef.current,
       style: "mapbox://styles/josh4324/ck6aquu370tc71io0helaaa32",
       center: [3.4544673, 6.6052842],
-      zoom: 10
+      zoom: 10,
     });
 
     // make a marker for each feature and add to the map
@@ -37,7 +36,7 @@ const Contact = () => {
       .setLngLat(marker.geometry.coordinates)
       .setPopup(
         new mapboxgl.Popup({
-          offset: 25
+          offset: 25,
         }) // add popups
           .setHTML(
             '<h4 class="pop">' +
@@ -55,7 +54,7 @@ const Contact = () => {
     return () => {};
   }, []);
 
-  const submit = evt => {
+  const submit = (evt) => {
     evt.preventDefault();
     const form = evt.target;
     const data = new FormData(form);
@@ -66,10 +65,10 @@ const Contact = () => {
       if (xhr.readyState !== XMLHttpRequest.DONE) return;
       if (xhr.status === 200) {
         form.reset();
-        setStatus("SUCCESS");
+        toast.success("Message Sent Successfully")
       } else {
         form.reset();
-        setStatus("ERROR");
+        toast.error("Error Sending Message ");
       }
     };
     xhr.send(data);
@@ -152,14 +151,7 @@ const Contact = () => {
                 placeholder="Message"
               ></textarea>
             </div>
-            {status === "SUCCESS" ? (
-              <p className="submit"> Submitted Successfully </p>
-            ) : (
-              <button className="but">Submit</button>
-            )}
-            {status === "ERROR" && (
-              <p className="error"> Ooops!There was an Error. </p>
-            )}
+            <button className="but">Submit</button>
           </form>
         </div>
         <div className="map none">
