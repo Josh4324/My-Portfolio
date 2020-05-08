@@ -1,5 +1,5 @@
 import mapboxgl from "mapbox-gl";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef } from "react";
 import { toast } from "react-toastify";
 import NavBar from "./NavBar";
 
@@ -65,7 +65,7 @@ const Contact = () => {
       if (xhr.readyState !== XMLHttpRequest.DONE) return;
       if (xhr.status === 200) {
         form.reset();
-        toast.success("Message Sent Successfully")
+        toast.success("Message Sent Successfully");
       } else {
         form.reset();
         toast.error("Error Sending Message ");

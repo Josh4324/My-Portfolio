@@ -15,10 +15,6 @@ const Work = () => {
               className="card-img"
             />
             <p>Solar Calculator</p>
-            <p className="details">
-              A Progressive Web App calculates solar power needed to power an
-              household. Built by Me and my team mates at HNGI6
-            </p>
             <p className="np">
               <a
                 href="https://hngi.github.io/Poseidon-Solar-Calculator/"
@@ -46,10 +42,6 @@ const Work = () => {
               className="card-img"
             />
             <p>Where in the World</p>
-            <p className="details">
-              {" "}
-              An App that gives you details about any country in the world
-            </p>
             <p className="np">
               <a
                 href="https://whereintheworld1.netlify.app/"
@@ -77,7 +69,6 @@ const Work = () => {
               className="card-img"
             />
             <p>Easy Bank Landing Page</p>
-            <p className="details"> A Landing Page</p>
             <p className="np">
               <a
                 href="https://easybanklanding.netlify.app/"
@@ -105,11 +96,6 @@ const Work = () => {
               className="card-img"
             />
             <p>Covid 19 Awareness Quiz</p>
-            <p className="details">
-              This web app tests your awareness about COVID-19. it also directs
-              users that do not do well on the quiz to a reputable site, where
-              they can learn about COVID-19{" "}
-            </p>
             <p className="np">
               <a
                 href="https://covid19awarenessquiz.netlify.com/"
@@ -137,10 +123,7 @@ const Work = () => {
               className="card-img"
             />
             <p>Rock Paper Scissors</p>
-            <p className="details">
-              {" "}
-              A Progressive Web App - Rock Paper Scissors Game
-            </p>
+
             <p className="np">
               <a
                 href="https://rps1.netlify.com/"
