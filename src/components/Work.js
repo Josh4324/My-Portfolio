@@ -10,6 +10,32 @@ const Work = () => {
         <div className="container">
           <div className="card">
             <img
+              src="https://res.cloudinary.com/josh4324/image/upload/v1589472665/manage_xbok81.png"
+              alt="manage"
+              className="card-img"
+            />
+            <p>Manage Landing Page</p>
+            <p className="np">
+              <a
+                href="http://managelanding.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Visit Webiste
+              </a>
+            </p>
+            <p className="np">
+              <a
+                href="https://github.com/Josh4324/Manage-Landing-Page"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github Code
+              </a>
+            </p>
+          </div>
+          <div className="card">
+            <img
               src="https://res.cloudinary.com/josh4324/image/upload/v1588195580/solar_ws2jmm.png"
               alt=""
               className="card-img"
