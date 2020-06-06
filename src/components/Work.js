@@ -8,6 +8,32 @@ const Work = () => {
         <h1 className="proh"> Projects </h1>
 
         <div className="container">
+        <div className="card">
+            <img
+              src="https://res.cloudinary.com/josh4324/image/upload/v1591450874/farmvest_vs4hrm.png"
+              alt="farmvest"
+              className="card-img"
+            />
+            <p>FarmVestNg</p>
+            <p className="np">
+              <a
+                href="https://farmvestng.netlify.app/index.html"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Visit Webiste
+              </a>
+            </p>
+            <p className="np">
+              <a
+                href="https://github.com/startng/bank-of-spain-farmvest-fe"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github Code
+              </a>
+            </p>
+          </div>
           <div className="card">
             <img
               src="https://res.cloudinary.com/josh4324/image/upload/v1589472665/manage_xbok81.png"
