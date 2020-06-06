@@ -86,6 +86,32 @@ const Work = () => {
               </a>
             </p>
           </div>
+          <div className="card">
+            <img
+              src="https://res.cloudinary.com/josh4324/image/upload/v1591455644/tutor_wzj5qg.png"
+              alt="farmvest"
+              className="card-img"
+            />
+            <p>Online Tutoring API</p>
+            <p className="np">
+              <a
+                href="https://github.com/Josh4324/online-tutoring-api"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Documentation
+              </a>
+            </p>
+            <p className="np">
+              <a
+                href="https://github.com/Josh4324/online-tutoring-api"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github Code
+              </a>
+            </p>
+          </div>
 
           <div className="card item">
             <img
