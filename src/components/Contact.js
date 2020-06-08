@@ -78,7 +78,7 @@ const Contact = () => {
       <div className="contact1">
         <div className="c1">
           <h1 className="ch"> Contact Me </h1>{" "}
-          <p>
+          <p className="contactp">
             {" "}
             I am interested in freelance opportunities.However if you have other
             request or question, contact me using the form below or my social
