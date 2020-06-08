@@ -765,7 +765,7 @@ pre tt:after {
 .cpage {
   color: #deb992;
   text-align: center;
-  font-family: "Uncial Antiqua" !important;
+  font-family: 'Montserrat', sans-serif;
   margin: auto;
   width: 700px;
   margin-top: 13%;
@@ -773,11 +773,11 @@ pre tt:after {
 
 .hello {
   font-size: 20px;
-  font-family: "Courgette";
+  font-family: 'Montserrat', sans-serif;
 }
 
 .hf {
-  font-family: "Uncial Antiqua" !important;
+  font-family: 'Montserrat', sans-serif;
   line-height: 3rem;
 }
 
@@ -815,7 +815,7 @@ a.box:hover {
 
 .abouth {
   text-align: center;
-  font-family: "Uncial Antiqua" !important;
+  font-family: 'Montserrat', sans-serif;
   color: #deb992;
   margin-top: 50px;
 }
@@ -901,7 +901,7 @@ a.box:hover {
 }
 
 .skh {
-  font-family: "Uncial Antiqua" !important;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* Work */
@@ -916,7 +916,7 @@ a.box:hover {
 
 .proh {
   color: #deb992;
-  font-family: "Uncial Antiqua" !important;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .container {
@@ -963,7 +963,7 @@ a.box:hover {
 }
 
 .ch {
-  font-family: "Uncial Antiqua" !important;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   margin-top: 30px;
   color: #deb992;
@@ -971,6 +971,11 @@ a.box:hover {
 
 .c1 {
   flex-basis: 50%;
+  margin-bottom: 10px;
+}
+
+.contactp {
+  width: 90%;
 }
 
 .fbox {
@@ -1018,12 +1023,14 @@ a.box:hover {
   text-align: center;
 }
 
+
+
 .mapContainer {
   position: absolute !important;
   top: 0;
   right: 0;
-  left: 750px;
-  bottom: 0;
+  width:45vw;
+  bottom: -20px;
 }
 
 .marker {
@@ -1057,18 +1064,14 @@ input {
   border-radius: 5px;
 }
 
+
+
 /* Mobile */
 
 /*home*/
 
 @media (max-width: 1250px) {
-  .mapContainer {
-    position: absolute !important;
-    top: 0;
-    right: 0;
-    left: 680px;
-    bottom: 0;
-  }
+  
 
   .container {
     display: grid;
@@ -1083,21 +1086,18 @@ input {
 }
 
 @media (max-width: 1100px) {
-  .mapContainer {
-    position: absolute !important;
-    top: 70%;
-    right: 0;
-    left: 0;
-    bottom: 40px;
-  }
 
   .c1 {
-    flex-basis: 100%;
+    flex-basis: 90%;
+    margin-left:auto;
+    margin-right:auto;
   }
 
   .none {
     display: none;
   }
+
+  
 }
 
 @media (max-width: 938px) {
@@ -1218,6 +1218,10 @@ input {
     box-shadow: 5px 5px 20px rgb(145, 97, 97);
     position: fixed;
     bottom: 0;
+  }
+
+  .contactp {
+    width: 100%;
   }
 
   .off {
