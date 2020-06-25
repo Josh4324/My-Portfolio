@@ -10,7 +10,7 @@ const Work = () => {
         <div className="container">
         <div className="card">
             <img
-              src="https://res.cloudinary.com/josh4324/image/upload/v1591450874/farmvest_vs4hrm.png"
+              src="https://res.cloudinary.com/josh4324/image/upload/v1593129012/farm_toztul.png"
               alt="farmvest"
               className="card-img"
             />
