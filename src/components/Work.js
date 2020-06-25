@@ -88,14 +88,14 @@ const Work = () => {
           </div>
           <div className="card">
             <img
-              src="https://res.cloudinary.com/josh4324/image/upload/v1591455644/tutor_wzj5qg.png"
+              src="https://res.cloudinary.com/josh4324/image/upload/v1593126455/doc_nnvjwr.png"
               alt="farmvest"
               className="card-img"
             />
             <p>Online Tutoring API</p>
             <p className="np">
               <a
-                href="https://github.com/Josh4324/online-tutoring-api"
+                href="https://app.swaggerhub.com/apis-docs/Joshade/Online-Tutoring-API/1.0.0-oas3"
                 target="_blank"
                 rel="noopener noreferrer"
               >
