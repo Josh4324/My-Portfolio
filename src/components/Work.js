@@ -36,7 +36,7 @@ const Work = () => {
           </div>
           <div className="card">
             <img
-              src="https://res.cloudinary.com/josh4324/image/upload/v1589472665/manage_xbok81.png"
+              src="https://res.cloudinary.com/josh4324/image/upload/v1593129691/manage_oolnlf.png"
               alt="manage"
               className="card-img"
             />
@@ -142,7 +142,7 @@ const Work = () => {
 
           <div className="card item">
             <img
-              src="https://res.cloudinary.com/josh4324/image/upload/v1588197661/easy_v0h1xt.png"
+              src="https://res.cloudinary.com/josh4324/image/upload/v1593130902/easy_rxu1vk.png"
               alt=""
               className="card-img"
             />
@@ -196,7 +196,7 @@ const Work = () => {
 
           <div className="card item">
             <img
-              src="https://res.cloudinary.com/josh4324/image/upload/v1588195581/rps_duqd2l.png"
+              src="https://res.cloudinary.com/josh4324/image/upload/v1593131074/rps_fgooaf.png"
               alt=""
               className="card-img"
             />
