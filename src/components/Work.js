@@ -62,7 +62,7 @@ const Work = () => {
           </div>
           <div className="card">
             <img
-              src="https://res.cloudinary.com/josh4324/image/upload/v1588195580/solar_ws2jmm.png"
+              src="https://res.cloudinary.com/josh4324/image/upload/v1593131531/solar_lhfr8k.png"
               alt=""
               className="card-img"
             />
