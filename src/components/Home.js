@@ -2,7 +2,7 @@ import {
   faFacebookSquare,
   faGithubSquare,
   faLinkedinIn,
-  faTwitterSquare,
+  faTwitterSquare
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
@@ -38,7 +38,7 @@ const Home = () => {
             className="box"
             target="_blank"
             rel="noopener noreferrer"
-            href="https://drive.google.com/open?id=1FNMBb0Gtg5uhgQ33VpwjImlZhxxrmr8W"
+            href="https://drive.google.com/file/d/1XWyNgCTKsMuj2xLamBoFoBjM9ogDLHz2/view?usp=sharing"
           >
             Resume
           </a>
