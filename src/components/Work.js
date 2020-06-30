@@ -142,6 +142,33 @@ const Work = () => {
 
           <div className="card item">
             <img
+              src="https://res.cloudinary.com/josh4324/image/upload/v1593552914/card_bnc7ha.png"
+              alt=""
+              className="card-img"
+            />
+            <p>Card Matching Game</p>
+            <p className="np">
+              <a
+                href="https://josh4324.github.io/Card-Matching-Game/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Visit Webiste
+              </a>
+            </p>
+            <p className="np">
+              <a
+                href="https://github.com/Josh4324/Card-Matching-Game"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github Code
+              </a>
+            </p>
+          </div>
+
+          <div className="card item">
+            <img
               src="https://res.cloudinary.com/josh4324/image/upload/v1593130902/easy_rxu1vk.png"
               alt=""
               className="card-img"
