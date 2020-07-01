@@ -8,7 +8,7 @@ const Contact = () => {
   const markerRef = useRef(null);
   const formRef = useRef(null);
   mapboxgl.accessToken =
-    "pk.eyJ1Ijoiam9zaDQzMjQiLCJhIjoiY2puZHgyZHJuMGJteDN3bzRiNnE2dXNqcSJ9.jgYBsnUesMUwUsPsb3dG6Q";
+    "pk.eyJ1Ijoiam9zaDQzMjQiLCJhIjoiY2tiemoyYmN2MGJ6ODJ2bXJmM25pbjN1dSJ9.veWU3GwQOzzf0OSAA_TRNg";
 
   useEffect(() => {
     const marker = {
