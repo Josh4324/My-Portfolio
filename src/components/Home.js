@@ -38,7 +38,7 @@ const Home = () => {
             className="box"
             target="_blank"
             rel="noopener noreferrer"
-            href="https://drive.google.com/file/d/1XWyNgCTKsMuj2xLamBoFoBjM9ogDLHz2/view?usp=sharing"
+            href="https://drive.google.com/file/d/1BxP7yirAEltqXwlvDU7aqVTssIcEzJfq/view?usp=sharing"
           >
             Resume
           </a>
