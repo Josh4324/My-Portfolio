@@ -14,7 +14,7 @@
 
 ## Introduction
 
-This is my portfolio, it contain an homepage, about page, tools i use mostly and some of my projects
+This is my portfolio, it contains an homepage, about page, tools i use mostly and some of my projects.
 
 ## Instructions
 
