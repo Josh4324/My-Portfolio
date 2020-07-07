@@ -1,20 +1,18 @@
+import { gsap } from "gsap";
 import React, { useEffect, useRef } from "react";
 import NavBar from "./NavBar";
-import { gsap } from "gsap";
 
 const About = () => {
   let abt = useRef(null);
-  let pic = useRef(null);
   useEffect(() => {
-  const time1 = gsap.timeline();
-  time1.from(abt, 0.5, {
-    ease: "ease",
-    yPercent: 200,
-  })
-    return () => {
-    };
-  }, []);
-  
+    const time1 = gsap.timeline();
+    time1.from(abt, 0.5, {
+      ease: "ease",
+      yPercent: 200,
+    });
+    return () => {};
+  }, [abt]);
+
   return (
     <div>
       <h1 className="abouth"> About Me </h1>{" "}
@@ -44,8 +42,8 @@ const About = () => {
           </div>
         </div>
 
-        <div ref={(el) => (pic = el)} className="ab2">
-          <img  className="image" src="/jc.jpg" alt="Josh" />
+        <div  className="ab2">
+          <img className="image" src="/jc.jpg" alt="Josh" />
         </div>
       </div>
       <NavBar> </NavBar>
