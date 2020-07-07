@@ -936,6 +936,11 @@ a.box:hover {
   border-radius: 10px;
 }
 
+.card-img:hover {
+  box-shadow: 0 0 30px rgb(145, 97, 97);
+  transform: translateY(-10px);
+}
+
 .np {
   margin-bottom: 10px;
   border-radius: 10px;

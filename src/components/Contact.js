@@ -1,5 +1,6 @@
 import mapboxgl from "mapbox-gl";
 import React, { useEffect, useRef } from "react";
+import { gsap } from "gsap";
 import { toast } from "react-toastify";
 import NavBar from "./NavBar";
 
@@ -7,10 +8,18 @@ const Contact = () => {
   const mapRef = useRef(null);
   const markerRef = useRef(null);
   const formRef = useRef(null);
+  let conRef = useRef(null);
+  let newMapRef = useRef(null);
   mapboxgl.accessToken =
     "pk.eyJ1Ijoiam9zaDQzMjQiLCJhIjoiY2tiemoyYmN2MGJ6ODJ2bXJmM25pbjN1dSJ9.veWU3GwQOzzf0OSAA_TRNg";
 
   useEffect(() => {
+    const time4 = gsap.timeline();
+    time4.from(conRef, 1, {
+      delay: 1,
+      ease: "ease",
+      yPercent: 200,
+    })
     const marker = {
       type: "Feature",
       geometry: {
@@ -52,7 +61,7 @@ const Contact = () => {
       .addTo(map);
 
     return () => {};
-  }, []);
+  }, [conRef, newMapRef]);
 
   const submit = (evt) => {
     evt.preventDefault();
@@ -76,8 +85,8 @@ const Contact = () => {
   return (
     <div>
       <div className="contact1">
-        <div className="c1">
-          <h1 className="ch"> Contact Me </h1>{" "}
+        <div  ref={(el) => (conRef = el)} className="c1">
+          <h1 className="ch"> Contact Me </h1>
           <p className="contactp">
             {" "}
             I am interested in freelance opportunities.However if you have other
@@ -154,7 +163,7 @@ const Contact = () => {
             <button className="but">Submit</button>
           </form>
         </div>
-        <div className="map none">
+        <div  ref={(el) => (newMapRef = el)} className="map none">
           <div ref={mapRef} className="mapContainer"></div>
           <div className="marker" ref={markerRef}></div>
         </div>

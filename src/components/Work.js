@@ -115,7 +115,7 @@ const Work = () => {
 
           <div className="card item">
             <img
-              src="https://res.cloudinary.com/josh4324/image/upload/v1588197019/wiw_majstp.png"
+              src="https://res.cloudinary.com/josh4324/image/upload/v1594083942/rest_disu6q.png"
               alt=""
               className="card-img"
             />

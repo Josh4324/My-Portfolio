@@ -6,10 +6,22 @@ import {
   faUserTie
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { NavLink } from "react-router-dom";
+import { gsap } from "gsap";
+
 
 const NavBar = () => {
+  let nav = useRef(null);
+  useEffect(() => {
+    gsap.from(nav, 0.5, {
+      delay: 0.8,
+      ease: "power",
+      xPercent: -100
+    })
+    return () => {
+    };
+  }, [nav]);
   return (
     <div>
       <div className="box1">
@@ -20,7 +32,7 @@ const NavBar = () => {
             Jo{" "}
           </a>
         </h2>
-        <div className="sidebar">
+        <div className="sidebar"  ref={(el) => (nav = el)}>
           <div className="nav">
             <NavLink exact className="nav-item" to="/">
               {" "}

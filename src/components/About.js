@@ -1,12 +1,29 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import NavBar from "./NavBar";
+import { gsap } from "gsap";
 
 const About = () => {
+  let abt = useRef(null);
+  let pic = useRef(null);
+  useEffect(() => {
+  const time1 = gsap.timeline();
+  time1.from(abt, 0.5, {
+    delay: 1,
+    ease: "back",
+    yPercent: 200,
+  }).from(pic, 0.5, {
+    ease: "ease",
+    xPercent: 200,
+  })
+    return () => {
+    };
+  }, [abt, pic]);
+  
   return (
     <div>
       <h1 className="abouth"> About Me </h1>{" "}
       <div className="about">
-        <div className="ab1">
+        <div className="ab1" ref={(el) => (abt = el)}>
           <div
             style={{
               display: "inline-block",
@@ -32,7 +49,7 @@ const About = () => {
         </div>
 
         <div className="ab2">
-          <img className="image" src="/jc.jpg" alt="Josh" />
+          <img ref={(el) => (pic = el)} className="image" src="/jc.jpg" alt="Josh" />
         </div>
       </div>
       <NavBar> </NavBar>

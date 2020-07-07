@@ -1,7 +1,22 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
+import { gsap } from "gsap";
 import NavBar from "./NavBar";
 
 const Skill = () => {
+  let bounce = useRef(null);
+  useEffect(() => {
+    const time3 = gsap.timeline();
+    time3.from([bounce.children], 0.5, {
+      ease:"back",
+      opacity: 0, 
+      stagger: {
+        amount: 3
+      }
+  })
+    return () => {
+      
+    };
+  }, [bounce]);
   return (
     <div>
       <div className="skill">
@@ -12,7 +27,7 @@ const Skill = () => {
           and interactive layouts. These are the technologies i have been
           working with recently:
         </p>
-        <div className="skflex">
+        <div className="skflex" ref={(el) => (bounce = el)}>
           <div className="skillb">
             <img
               src="https://res.cloudinary.com/josh4324/image/upload/v1588195734/icons8-html-5_l5tau6.svg"
