@@ -8,16 +8,12 @@ const About = () => {
   useEffect(() => {
   const time1 = gsap.timeline();
   time1.from(abt, 0.5, {
-    delay: 1,
-    ease: "back",
-    yPercent: 200,
-  }).from(pic, 0.5, {
     ease: "ease",
-    xPercent: 200,
+    yPercent: 200,
   })
     return () => {
     };
-  }, [abt, pic]);
+  }, []);
   
   return (
     <div>
@@ -48,8 +44,8 @@ const About = () => {
           </div>
         </div>
 
-        <div className="ab2">
-          <img ref={(el) => (pic = el)} className="image" src="/jc.jpg" alt="Josh" />
+        <div ref={(el) => (pic = el)} className="ab2">
+          <img  className="image" src="/jc.jpg" alt="Josh" />
         </div>
       </div>
       <NavBar> </NavBar>

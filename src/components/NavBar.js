@@ -16,7 +16,7 @@ const NavBar = () => {
   useEffect(() => {
     gsap.from(nav, 0.5, {
       delay: 0.8,
-      ease: "power",
+      ease: "ease",
       xPercent: -100
     })
     return () => {
