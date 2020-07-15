@@ -985,7 +985,7 @@ a.box:hover {
 
 .fbox {
   width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .input {
@@ -1034,8 +1034,8 @@ a.box:hover {
   position: absolute !important;
   top: 0;
   right: 0;
-  width:45vw;
-  bottom: -20px;
+  width: 45vw;
+  bottom: 0px;
 }
 
 .marker {
@@ -1049,12 +1049,13 @@ a.box:hover {
 
 .pop {
   text-align: center;
-  font-family: "Courgette";
+  font-family: 'Montserrat', sans-serif;
+  ;
 }
 
 #message {
   padding-left: 10px;
-  font-family: "Courgette";
+  font-family: 'Montserrat', sans-serif;
   border-radius: 5px;
 }
 
@@ -1065,7 +1066,7 @@ label {
 input {
   height: 40px;
   padding-left: 10px;
-  font-family: "Courgette";
+  font-family: 'Montserrat', sans-serif;
   border-radius: 5px;
 }
 
@@ -1076,7 +1077,7 @@ input {
 /*home*/
 
 @media (max-width: 1250px) {
-  
+
 
   .container {
     display: grid;
@@ -1094,15 +1095,15 @@ input {
 
   .c1 {
     flex-basis: 90%;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .none {
     display: none;
   }
 
-  
+
 }
 
 @media (max-width: 938px) {

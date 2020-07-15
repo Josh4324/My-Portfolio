@@ -1,6 +1,6 @@
+import { gsap } from "gsap";
 import mapboxgl from "mapbox-gl";
 import React, { useEffect, useRef } from "react";
-import { gsap } from "gsap";
 import { toast } from "react-toastify";
 import NavBar from "./NavBar";
 
@@ -15,11 +15,17 @@ const Contact = () => {
 
   useEffect(() => {
     const time4 = gsap.timeline();
-    time4.from(conRef, 1, {
-      delay: 1,
-      ease: "ease",
-      yPercent: 200,
-    })
+    time4
+      .from(conRef, 1, {
+        delay: 1,
+        ease: "ease",
+        yPercent: 200,
+      })
+      .from(newMapRef, 1, {
+        delay: 2,
+        ease: "ease",
+        opcaity: 0,
+      });
     const marker = {
       type: "Feature",
       geometry: {
@@ -85,7 +91,7 @@ const Contact = () => {
   return (
     <div>
       <div className="contact1">
-        <div  ref={(el) => (conRef = el)} className="c1">
+        <div ref={(el) => (conRef = el)} className="c1">
           <h1 className="ch"> Contact Me </h1>
           <p className="contactp">
             {" "}
@@ -114,6 +120,7 @@ const Contact = () => {
                   name="name"
                   id="name"
                   placeholder="Name"
+                  required
                 />
               </div>
               <div className="fbox">
@@ -130,6 +137,7 @@ const Contact = () => {
                   placeholder="Email"
                   name="email"
                   id="email"
+                  required
                 />
               </div>{" "}
             </div>
@@ -141,7 +149,13 @@ const Contact = () => {
                   Subjet <span className="red"> * </span>
                 </label>{" "}
               </div>{" "}
-              <input type="text" className="input" placeholder="Subject" />
+              <input
+                type="text"
+                className="input"
+                placeholder="Subject"
+                id="subject"
+                required
+              />
             </div>
             <div className="fbox">
               <div>
@@ -157,13 +171,14 @@ const Contact = () => {
                 id="message"
                 cols="30"
                 rows="5"
-                placeholder="Message"
+                placeholder="Enter Your Message"
+                required
               ></textarea>
             </div>
             <button className="but">Submit</button>
           </form>
         </div>
-        <div  ref={(el) => (newMapRef = el)} className="map none">
+        <div ref={(el) => (newMapRef = el)} className="map none">
           <div ref={mapRef} className="mapContainer"></div>
           <div className="marker" ref={markerRef}></div>
         </div>

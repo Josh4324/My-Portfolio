@@ -4,11 +4,16 @@ import NavBar from "./NavBar";
 
 const About = () => {
   let abt = useRef(null);
+  let ab2 = useRef(null);
   useEffect(() => {
     const time1 = gsap.timeline();
     time1.from(abt, 0.5, {
       ease: "ease",
       yPercent: 200,
+    }).from(ab2, 0.5, {
+      delay:1,
+      ease: "ease",
+      opacity: 0,
     });
     return () => {};
   }, [abt]);
@@ -42,7 +47,7 @@ const About = () => {
           </div>
         </div>
 
-        <div  className="ab2">
+        <div  className="ab2" ref={(el) => (ab2 = el)}>
           <img className="image" src="/jc.jpg" alt="Josh" />
         </div>
       </div>
