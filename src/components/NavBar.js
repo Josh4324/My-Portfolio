@@ -14,8 +14,8 @@ import { gsap } from "gsap";
 const NavBar = () => {
   let nav = useRef(null);
   useEffect(() => {
-    gsap.from(nav, 0.5, {
-      delay: 0.8,
+    gsap.from(nav, {
+      duration: 2,
       ease: "ease",
       xPercent: -100
     })

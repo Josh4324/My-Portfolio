@@ -16,13 +16,13 @@ const Contact = () => {
   useEffect(() => {
     const time4 = gsap.timeline();
     time4
-      .from(conRef, 1, {
-        delay: 1,
+      .from(conRef, {
+        duration: 2,
         ease: "ease",
-        yPercent: 200,
+        yPercent: 100,
       })
-      .from(newMapRef, 1, {
-        delay: 2,
+      .from(newMapRef, {
+        duration: 3,
         ease: "ease",
         opcaity: 0,
       });

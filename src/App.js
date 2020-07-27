@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React from "react";
 import { Route, Switch } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -10,11 +10,6 @@ import Skill from "./components/Skill";
 import Work from "./components/Work";
 
 function App() {
-  useEffect(() => {
-    document.querySelector(".sk").classList.add("remove");
-    return () => {
-    };
-  }, []);
   return (
     <div>
       <Switch>

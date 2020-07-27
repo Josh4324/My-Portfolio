@@ -1,14 +1,28 @@
-import React from "react";
+import { gsap } from "gsap";
+import React, { useEffect, useRef } from "react";
 import NavBar from "./NavBar";
 
 const Work = () => {
+  let pro = useRef(null);
+  useEffect(() => {
+    const timepro = gsap.timeline();
+    timepro.from([pro.children], {
+      duration: 2,
+      ease: "back",
+      opacity: 0,
+      stagger: {
+        amount: 5,
+      },
+    });
+    return () => {};
+  }, [pro]);
   return (
     <div>
       <div className="project">
         <h1 className="proh"> Projects </h1>
 
-        <div className="container">
-        <div className="card">
+        <div className="container" ref={(el) => (pro = el)}>
+          <div className="card">
             <img
               src="https://res.cloudinary.com/josh4324/image/upload/v1593129012/farm_toztul.png"
               alt="farmvest"

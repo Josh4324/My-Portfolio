@@ -6,11 +6,12 @@ const Skill = () => {
   let bounce = useRef(null);
   useEffect(() => {
     const time3 = gsap.timeline();
-    time3.from([bounce.children], 0.5, {
+    time3.from([bounce.children],{
+      duration:2,
       ease:"back",
       opacity: 0, 
       stagger: {
-        amount: 3
+        amount: 5
       }
   })
     return () => {

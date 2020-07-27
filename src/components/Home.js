@@ -17,22 +17,25 @@ const Home = () => {
   let sc = useRef(null);
   useEffect(() => {
     const time = gsap.timeline();
-    time.from(t1, 0.5, {
-      delay: 2,
-      ease: "bounce",
-      xPercent: 150,
-    }).from(t2, 0.5, {
-      delay: 0.5,
-      ease: "slow",
-      opacity: 0.3,
-    }).from([sc.children], 0.7, {
-        delay:0.8,
-        ease:"power",
+    time
+      .from(t1, {
+        duration: 2,
+        ease: "bounce",
+        xPercent: 150,
+      })
+      .from(t2, {
+        duration: 0.5,
+        ease: "slow",
+        opacity: 0.3,
+      })
+      .from([sc.children], {
+        duration: 3,
+        ease: "power",
         opacity: 0,
         stagger: {
-          amount: 0.5
-        }  
-    })
+          amount: 1,
+        },
+      });
 
     return () => {};
   }, [t1, t2]);
@@ -73,17 +76,17 @@ const Home = () => {
           </a>
         </div>
 
-        <div className="social"  ref={(el) => (sc = el)}>
-          <a href="https://www.facebook.com/adesanyajoshua" >
+        <div className="social" ref={(el) => (sc = el)}>
+          <a href="https://www.facebook.com/adesanyajoshua">
             <FontAwesomeIcon className="fab sc" icon={faFacebookSquare} />
           </a>
-          <a href="https://twitter.com/josh_my_man" >
+          <a href="https://twitter.com/josh_my_man">
             <FontAwesomeIcon className="fab sc" icon={faTwitterSquare} />
           </a>
-          <a href="https://www.linkedin.com/in/joshuaadesanya/" >
+          <a href="https://www.linkedin.com/in/joshuaadesanya/">
             <FontAwesomeIcon className="fab sc" icon={faLinkedinIn} />
           </a>
-          <a href="https://github.com/Josh4324" >
+          <a href="https://github.com/Josh4324">
             <FontAwesomeIcon className="fab sc" icon={faGithubSquare} />
           </a>
         </div>
