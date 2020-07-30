@@ -210,14 +210,14 @@ const Work = () => {
 
           <div className="card item">
             <img
-              src="https://res.cloudinary.com/josh4324/image/upload/v1588195580/covid_jpwa3l.png"
+              src="https://res.cloudinary.com/josh4324/image/upload/v1596073457/qui_bk3ngo.png"
               alt=""
               className="card-img"
             />
-            <p>Covid 19 Awareness Quiz</p>
+            <p>Quiz App</p>
             <p className="np">
               <a
-                href="https://covid19awarenessquiz.netlify.com/"
+                href="https://josh4324.github.io/quiz-app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -226,7 +226,7 @@ const Work = () => {
             </p>
             <p className="np">
               <a
-                href="https://github.com/Josh4324/Covid-19-Quizzer"
+                href="https://github.com/Josh4324/quiz-app"
                 target="_blank"
                 rel="noopener noreferrer"
               >

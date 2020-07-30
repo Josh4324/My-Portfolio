@@ -17,13 +17,13 @@ const Contact = () => {
     const time4 = gsap.timeline();
     time4
       .from(conRef, {
-        duration: 2,
-        ease: "ease",
+        duration: 1,
+        ease: "power",
         yPercent: 100,
       })
       .from(newMapRef, {
-        duration: 3,
-        ease: "ease",
+        duration: 2,
+        ease: "power",
         opcaity: 0,
       });
     const marker = {
