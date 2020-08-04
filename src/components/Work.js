@@ -126,6 +126,33 @@ const Work = () => {
               </a>
             </p>
           </div>
+          
+          <div className="card">
+            <img
+              src="https://res.cloudinary.com/josh4324/image/upload/v1596580446/doc2_dnfh6r.png"
+              alt="team"
+              className="card-img"
+            />
+            <p>Team Work API</p>
+            <p className="np">
+              <a
+                href="https://app.swaggerhub.com/apis-docs/Joshade/TeamWork/1.0.0#/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Documentation
+              </a>
+            </p>
+            <p className="np">
+              <a
+                href="https://github.com/Josh4324/online-tutoring-api"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github Code
+              </a>
+            </p>
+          </div>
 
           <div className="card item">
             <img
