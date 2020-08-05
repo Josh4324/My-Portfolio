@@ -921,7 +921,7 @@ a.box:hover {
 
 .container {
   display: grid;
-  grid-template: 450px 450px / 1fr 1fr 1fr;
+  grid-template: 450px 450px 450px / 1fr 1fr 1fr ;
   margin-top: 80px;
 }
 
