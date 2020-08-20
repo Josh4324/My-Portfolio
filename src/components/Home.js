@@ -51,7 +51,7 @@ const Home = () => {
         </Typing>
 
         <h1 className="hf" ref={(el) => (t2 = el)}>
-          A Front End Developer
+          A Full Stack Developer
         </h1>
 
         <Typing hideCursor={true} loop={true} speed={200}>
