@@ -50,6 +50,32 @@ const Work = () => {
           </div>
           <div className="card">
             <img
+              src="https://res.cloudinary.com/josh4324/image/upload/v1598542973/wea_lejdx9.png"
+              alt="manage"
+              className="card-img"
+            />
+            <p>Weather Application</p>
+            <p className="np">
+              <a
+                href="https://weatherapp-josh.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Visit Webiste
+              </a>
+            </p>
+            <p className="np">
+              <a
+                href="https://github.com/Josh4324/Weather-App"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github Code
+              </a>
+            </p>
+          </div>
+          <div className="card">
+            <img
               src="https://res.cloudinary.com/josh4324/image/upload/v1593129691/manage_oolnlf.png"
               alt="manage"
               className="card-img"
